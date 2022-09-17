@@ -1,3 +1,43 @@
-.h1 {
-    color: blue;
+.product {
+    width: 250px;
+    height: 630px;
+    position: relative;
+}
+.product .layer1 {
+    width: 100%;
+}
+.product .layer2 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.product:hover .layer2 {
+    width: 100%;
+    opacity: 1;
+}
+.product .layer3 {
+    display: flex;
+}
+.product .layer3 .trai{
+    width: 50%;
+    
+}
+.product .layer3 .phai {
+    width: 50%;
+}
+.product .layer4 {
+    opacity: 1;
+    position: absolute;
+}
+.product:hover .layer4 {
+    opacity: 0;
+}
+.product .layer5 {
+    opacity: 0;
+    position: absolute;
+}
+.product:hover .layer5 {
+    opacity: 1;
 }
